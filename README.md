@@ -13,6 +13,7 @@ The R script `run_analysis.R` does the following:
 6. Adds descriptive activity labels (`Activity`)
 7. Calculates the average of each variable for each activity and subject
 8. Writes out the dataset created in step 7 (`variable_averages.txt`).  
+
 The `data.table` and `dplyr` packages are required to run this script.
 ## Files
 `CodeBook.md` describes the variables in each dataset.
