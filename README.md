@@ -8,7 +8,7 @@ The R script `run_analysis.R` does the following:
 1. Downloads and unzips the dataset, if it does not already exist in the working directory
 2. Identifies columns that contain the measurements on the mean or standard deviation for each measurement
 3. Reads in train/test set columns that contain the mean or standard deviation and names columns appropriately
-4. Adds columns with subject identifier (`Subject`), activity labels (`Label`), and from which set the data was obtained (`Set)
+4. Adds columns with subject identifier (`Subject`), activity labels (`Label`), and from which set the data was obtained (`Set`)
 5. Binds the train and test data together
 6. Adds descriptive activity labels (`Activity`)
 7. Calculates the average of each variable for each activity and subject
